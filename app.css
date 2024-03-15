@@ -1,0 +1,75 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./post.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn { 
+  margin-top: 25%;
+  margin-left: 45%;
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+img {
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.btn:hover {
+  cursor: pointer;
+  width: 10px;
+}
+.man1 {
+  font-size: 70px;
+  margin-top: 18%;
+  margin-left: 15%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.man2 {
+  font-size: 70px;
+  margin-top: 18%;
+  margin-left: 80%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.man3 {
+  font-size: 50px;
+  margin-top: 15%;
+  margin-left: 45%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.man4 {
+  font-size: 70px;
+  margin-top: 33%;
+  position: absolute;
+  margin-left: 27%;
+  width: 50px;
+  height: 50px;
+}
+.man5 {
+  font-size: 70px;
+  margin-top: 33%;
+  position: absolute;
+  margin-left: 70%;
+  width: 50px;
+  height: 50px;
+}
